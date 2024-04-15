@@ -1,0 +1,26 @@
+name: hyperatt
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - python
+  - conda-forge::ipython
+  - conda-forge::notebook
+  - conda-forge::ipywidgets
+  - conda-forge::nbconvert
+  - conda-forge::nbformat
+  - conda-forge::numpy
+  - conda-forge::pandas
+  - conda-forge::scikit-learn
+  - conda-forge::python-kaleido
+  - conda-forge::matplotlib
+  - conda-forge::seaborn
+  - conda-forge::plotly
+  - conda-forge::tqdm
+  - pytorch::pytorch
+  - pytorch::torchvision
+  - pytorch::torchaudio
+  - pip
+  - pip:
+    - triton==2.0.0.dev20221202
